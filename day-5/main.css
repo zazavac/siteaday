@@ -1,0 +1,53 @@
+h1	{
+	font-family:	helvetica, sans-serif;
+	color: #477838
+}
+
+h2 {
+	font-family:	helvetica, sans-serif;
+	color:	#6aa658;
+}
+
+h1:before {
+	content: "";
+	height: 0px;
+	width: 0px;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #ff007e;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	margin-right: 6px;
+}
+
+h2:before {
+	content: "";
+	height: 0px;
+	width: 0px;
+	border-bottom: 15px solid transparent;
+	border-top: 15px solid transparent;
+	border-left: 15px solid #ff007e;
+	display: inline-block;
+	position: relative;
+	top: 7px;
+	margin-right: 7px;
+}
+
+.up {
+	height: 0px;
+	width: 0px;
+	border-bottom: 10px solid #ff007e;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	display: inline-block;
+}
+
+.down {
+	height: 0px;
+	width: 0px;
+	border-top: 10px solid #ff007e;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	display: inline-block;
+}
