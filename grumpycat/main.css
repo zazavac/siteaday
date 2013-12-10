@@ -12,10 +12,19 @@ body {
 
 }
 
-.clouds {
+body:before {
+	content: '';
+	top: -27px; 
+	left: -27px;
+	right: 0;
+	height: 300px;
+	position: absolute;
 	background-image: url(img/clouds.png);
-	height: 350px;
 	background-repeat: repeat-x;
-	margin: -27px;
-	opacity: .3;
+	z-index: -1;
+}
+
+
+.container {
+	width: 100%;
 }
